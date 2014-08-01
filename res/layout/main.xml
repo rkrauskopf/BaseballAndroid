@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+            android:id="@+id/settingsBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Settings"/>
+
+    <Button
+            android:id="@+id/upLoadFileBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upload File"
+            android:onClick="goToUploadFile"/>
+
+    <Button
+            android:id="@+id/UserBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="View Orders"
+            android:onClick="viewOrders"/>
+    <Button
+            android:id="@+id/downloadVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Download Video"
+            android:onClick="downloadVideo"/>
+</LinearLayout>
+
